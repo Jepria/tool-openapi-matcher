@@ -1,4 +1,4 @@
-package org.jepria.tools.matcher.diffTypes;
+package org.jepria.tools.openapi.matcher.diffTypes;
 
 import com.github.javaparser.ast.Node;
 import java.util.List;

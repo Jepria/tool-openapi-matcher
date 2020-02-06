@@ -1,4 +1,4 @@
-package org.jepria.tools.matcher;
+package org.jepria.tools.openapi.matcher;
 
 import java.io.File;
 import java.io.IOException;

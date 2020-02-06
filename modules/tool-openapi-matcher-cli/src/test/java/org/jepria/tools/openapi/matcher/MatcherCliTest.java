@@ -1,15 +1,15 @@
-package org.jepria.tools.matcher;
+package org.jepria.tools.openapi.matcher;
 
-import static org.jepria.tools.matcher.JepriaOpenAPIMatcher.JAVA_PATH_OPT;
-import static org.jepria.tools.matcher.JepriaOpenAPIMatcher.SPEC_OPT;
-import static org.jepria.tools.matcher.JepriaOpenAPIMatcher.match;
+import static org.jepria.tools.openapi.matcher.MatcherCli.JAVA_PATH_OPT;
+import static org.jepria.tools.openapi.matcher.MatcherCli.SPEC_OPT;
+import static org.jepria.tools.openapi.matcher.MatcherCli.match;
 
 import java.io.File;
 import java.io.IOException;
 import org.apache.commons.cli.ParseException;
 import org.junit.Test;
 
-public class JepriaOpenAPIMatcherTest {
+public class MatcherCliTest {
 
   @Test
   public void matchTest() throws IOException, ParseException {

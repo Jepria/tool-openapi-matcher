@@ -4,9 +4,9 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>org.jepria.tools</groupId>
-  <artifactId>tool-openapi-matcher-cli</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <groupId>org.jepria.tools.openapi</groupId>
+  <artifactId>matcher-cli</artifactId>
+  <version>1.0</version>
 
   <build>
     <plugins>
@@ -25,7 +25,7 @@
           <archive>
             <manifest>
               <addClasspath>true</addClasspath>
-              <mainClass>org.jepria.tools.matcher.JepriaOpenAPIMatcher</mainClass>
+              <mainClass>org.jepria.tools.openapi.matcher.MatcherCli</mainClass>
             </manifest>
           </archive>
         </configuration>
@@ -71,9 +71,9 @@
       <scope>test</scope>
     </dependency>
     <dependency>
-      <groupId>org.jepria.tools</groupId>
-      <artifactId>tool-openapi-matcher</artifactId>
-      <version>1.0-SNAPSHOT</version>
+      <groupId>org.jepria.tools.openapi</groupId>
+      <artifactId>matcher</artifactId>
+      <version>1.0</version>
     </dependency>
   </dependencies>
 

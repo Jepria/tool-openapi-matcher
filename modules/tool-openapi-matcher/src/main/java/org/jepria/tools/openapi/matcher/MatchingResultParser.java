@@ -1,20 +1,20 @@
-package org.jepria.tools.matcher;
+package org.jepria.tools.openapi.matcher;
 
 
-import static org.jepria.tools.matcher.diffTypes.MethodDiff.DiffType.ADDED;
-import static org.jepria.tools.matcher.diffTypes.MethodDiff.DiffType.CHANGED;
-import static org.jepria.tools.matcher.diffTypes.MethodDiff.DiffType.DELETED;
-import static org.jepria.tools.matcher.diffTypes.MethodDiff.DiffType.TYPE_CHANGED;
+import static org.jepria.tools.openapi.matcher.diffTypes.MethodDiff.DiffType.ADDED;
+import static org.jepria.tools.openapi.matcher.diffTypes.MethodDiff.DiffType.CHANGED;
+import static org.jepria.tools.openapi.matcher.diffTypes.MethodDiff.DiffType.DELETED;
+import static org.jepria.tools.openapi.matcher.diffTypes.MethodDiff.DiffType.TYPE_CHANGED;
 
 import java.io.BufferedWriter;
 import java.io.IOException;
 import java.io.OutputStream;
 import java.io.OutputStreamWriter;
 import java.util.List;
-import org.jepria.tools.matcher.diffTypes.AnnotationDiff;
-import org.jepria.tools.matcher.diffTypes.MatchDiff;
-import org.jepria.tools.matcher.diffTypes.MethodDiff;
-import org.jepria.tools.matcher.diffTypes.ParamDiff;
+import org.jepria.tools.openapi.matcher.diffTypes.AnnotationDiff;
+import org.jepria.tools.openapi.matcher.diffTypes.MatchDiff;
+import org.jepria.tools.openapi.matcher.diffTypes.MethodDiff;
+import org.jepria.tools.openapi.matcher.diffTypes.ParamDiff;
 
 //TODO: need refactoring!
 public class MatchingResultParser {

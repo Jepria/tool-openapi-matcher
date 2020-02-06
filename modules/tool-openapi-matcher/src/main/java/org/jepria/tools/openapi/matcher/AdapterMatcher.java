@@ -1,4 +1,4 @@
-package org.jepria.tools.matcher;
+package org.jepria.tools.openapi.matcher;
 
 import io.swagger.v3.oas.models.OpenAPI;
 import io.swagger.v3.parser.OpenAPIV3Parser;
@@ -7,8 +7,8 @@ import java.io.OutputStream;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.List;
-import org.jepria.tools.codegen.openapi.ProjectGenerator;
-import org.jepria.tools.matcher.diffTypes.MethodDiff;
+import org.jepria.tools.openapi.generator.ProjectGenerator;
+import org.jepria.tools.openapi.matcher.diffTypes.MethodDiff;
 
 public class AdapterMatcher {
 

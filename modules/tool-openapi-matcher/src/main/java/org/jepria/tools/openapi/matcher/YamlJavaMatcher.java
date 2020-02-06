@@ -1,4 +1,4 @@
-package org.jepria.tools.matcher;
+package org.jepria.tools.openapi.matcher;
 
 import com.github.javaparser.JavaParser;
 import com.github.javaparser.ParseStart;
@@ -16,10 +16,10 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
-import org.jepria.tools.matcher.diffTypes.AnnotationDiff;
-import org.jepria.tools.matcher.diffTypes.MatchDiff;
-import org.jepria.tools.matcher.diffTypes.MethodDiff;
-import org.jepria.tools.matcher.diffTypes.ParamDiff;
+import org.jepria.tools.openapi.matcher.diffTypes.AnnotationDiff;
+import org.jepria.tools.openapi.matcher.diffTypes.MatchDiff;
+import org.jepria.tools.openapi.matcher.diffTypes.MethodDiff;
+import org.jepria.tools.openapi.matcher.diffTypes.ParamDiff;
 
 class YamlJavaMatcher {
 

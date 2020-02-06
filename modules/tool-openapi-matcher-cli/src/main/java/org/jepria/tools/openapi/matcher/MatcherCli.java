@@ -1,4 +1,4 @@
-package org.jepria.tools.matcher;
+package org.jepria.tools.openapi.matcher;
 
 import java.io.IOException;
 import org.apache.commons.cli.CommandLine;
@@ -7,7 +7,7 @@ import org.apache.commons.cli.Option;
 import org.apache.commons.cli.Options;
 import org.apache.commons.cli.ParseException;
 
-public class JepriaOpenAPIMatcher {
+public class MatcherCli {
 
   public static final  String SPEC_OPT      = "spec";
   private static final String SPEC_OPT_NAME = "specification";
