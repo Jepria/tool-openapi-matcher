@@ -7,7 +7,7 @@ import static org.jepria.tools.openapi.matcher.MatcherCli.match;
 import java.io.File;
 import java.io.IOException;
 import org.apache.commons.cli.ParseException;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 public class MatcherCliTest {
 
